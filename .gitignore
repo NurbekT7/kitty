@@ -1,4 +1,4 @@
 .idea
-src/.env
+#src/.env
 src/staticfiles
 src/media
