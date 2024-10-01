@@ -15,3 +15,5 @@ EXPOSE 8000
 RUN apk add postgresql-client build-base postgresql-dev
 
 USER nurbek
+
+RUN python manage.py collectstatic --noinput
